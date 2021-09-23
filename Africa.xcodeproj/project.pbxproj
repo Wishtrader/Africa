@@ -53,6 +53,7 @@
 		41C2C71926FBDB5D00F88838 /* InsetFactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetFactView.swift; sourceTree = "<group>"; };
 		41C2C71B26FBEE7300F88838 /* InsetMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetMapView.swift; sourceTree = "<group>"; };
 		41C2C71D26FBF59E00F88838 /* ExternalWeblinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExternalWeblinkView.swift; sourceTree = "<group>"; };
+		41C2C71F26FBFB7600F88838 /* .gitignore.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = .gitignore.md; sourceTree = "<group>"; };
 		41D32EB626FB844500DC09F1 /* HeadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadingView.swift; sourceTree = "<group>"; };
 		41D3D2B026F89460004A617F /* AnimalListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalListItemView.swift; sourceTree = "<group>"; };
 		41D42BCC26F69A8E00EED517 /* CodableBundleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableBundleExtension.swift; sourceTree = "<group>"; };
@@ -110,6 +111,7 @@
 		41B51F2F26F5659F000417E1 /* Africa */ = {
 			isa = PBXGroup;
 			children = (
+				41C2C71F26FBFB7600F88838 /* .gitignore.md */,
 				41D42BCB26F69A6400EED517 /* Extension */,
 				41EB8B4026F6605D004561BB /* Model */,
 				41EB8B3C26F62A2C004561BB /* View */,
