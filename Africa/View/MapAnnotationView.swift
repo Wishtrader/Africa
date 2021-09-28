@@ -22,6 +22,8 @@ struct MapAnnotationView: View {
             Circle()
                 .stroke(Color.accentColor, lineWidth: 2)
                 .frame(width: 52, height: 52, alignment: .center)
+                .scaleEffect(1 + CGFloat(animation))
+                .opacity(1 - animation)
             
             Image(location.image)
                 .resizable()
@@ -29,9 +31,9 @@ struct MapAnnotationView: View {
                 .frame(width: 48, height: 48, alignment: .center)
             .clipShape(Circle())
         } //: ZSTACK
-        onAppear {
+        .onAppear {
             withAnimation(Animation.easeOut(duration: 2).repeatForever(autoreverses: false)) {
-                animation = 1
+                animation = 1.0
             }
         }
     }
